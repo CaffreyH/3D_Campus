@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/huyan"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="										图书馆" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lib" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="四川大学图书馆始建于1896 年，是我国西南地区藏书规模最大的大学图书馆；馆舍总面积63,100平方米；馆藏纸质文献达699.75万余册，并拥有丰富的电子文献资源。可提供阅览、外借、参考咨询、科技项目查新、文献传递、用户培训、馆际互借、声像视听、复印复制、打印扫描、缩微复制等多种信息服务，并为本科生、研究生开设“文献检索与利用课”。" />
+</LinearLayout>
+</LinearLayout>

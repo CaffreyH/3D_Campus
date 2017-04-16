@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/huyan"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="								四川大学第一教学楼" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/build" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一教学楼位于环道内的教学实验区内，与校区图书馆遥遥相对。该教学楼由同济大学建筑设计院设计，总建筑面积约4万余平方米，内有1万7千余个座位，由A、B、C、D四座楼组成群楼，楼与楼之间有风雨连廊：水上报告厅建在明远湖上，有近五百个座位；在报告厅北面观景廊上可以观赏湖光山色；报告厅南面镶嵌楠木雕刻的《劝学篇》，此景增加了百年名校的文化积淀。" />
+</LinearLayout>
+</LinearLayout>
